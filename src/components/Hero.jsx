@@ -43,13 +43,15 @@ const Hero = () => {
                         >
                             View Projects <ChevronRight size={20} />
                         </motion.a>
-                        <motion.button
+                        <motion.a
+                            href="/resume.pdf"
+                            download="Goutam_Kumar_Resume.pdf"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="px-8 py-3 border border-slate-700 text-slate-300 rounded-full font-bold hover:bg-slate-800 transition-all flex items-center gap-2"
                         >
                             Download Resume <Download size={20} />
-                        </motion.button>
+                        </motion.a>
                     </div>
                 </motion.div>
 
